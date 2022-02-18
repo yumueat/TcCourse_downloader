@@ -10,12 +10,11 @@
 
 先选择下载方式
 
-![image](https://user-images.githubusercontent.com/87589322/154710393-2dd7090e-10a8-4072-b70d-cefb47b06a07.png)
-
+![image](https://user-images.githubusercontent.com/87589322/154710343-803e2a84-1703-4b12-a4b8-0d26452567d4.png)
 
 然后输入播放页面的网址
 
-![image](https://user-images.githubusercontent.com/87589322/154710343-803e2a84-1703-4b12-a4b8-0d26452567d4.png)
+![image](https://user-images.githubusercontent.com/87589322/154710393-2dd7090e-10a8-4072-b70d-cefb47b06a07.png)
 
 就是这个
 
@@ -23,10 +22,11 @@
 
 然后会弹出登录窗口，登录后会记录下cookie信息，以便后面的下载（值得一提的是cookie有时间限制，一般每一天都得换，只要删除掉cookie.json文件程序就会重新打开登录页面记录cookie），然后就可以选择码率
 
-![image](https://user-images.githubusercontent.com/87589322/154711640-19e3e032-274b-4851-a952-897051358471.png)
+![image](https://user-images.githubusercontent.com/87589322/154711687-aeaf609e-da78-4c6b-a88b-e408acc86d4a.png)
+
 然后就开始下载了
 
-![image](https://user-images.githubusercontent.com/87589322/154711687-aeaf609e-da78-4c6b-a88b-e408acc86d4a.png)
+![image](https://user-images.githubusercontent.com/87589322/154711640-19e3e032-274b-4851-a952-897051358471.png)
 
 下载完成后会开始解密
 
