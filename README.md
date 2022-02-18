@@ -20,7 +20,7 @@
 
 ![image](https://user-images.githubusercontent.com/87589322/154711505-06336fd1-7708-41f6-a778-5bc6b14b4a7e.png)
 
-然后会弹出登录窗口，登录后会记录下cookie信息，以便后面的下载（值得一提的是cookie有时间限制，一般每一天都得换，只要删除掉cookie.json文件程序就会重新打开登录页面记录cookie），然后就可以选择码率
+然后会弹出登录窗口，登录后会记录下cookie信息，以便后面的下载（值得一提的是cookie有时间限制，一般每一天都得换，只要删除掉cookies.json文件程序就会重新打开登录页面记录cookie），然后就可以选择码率
 
 ![image](https://user-images.githubusercontent.com/87589322/154711687-aeaf609e-da78-4c6b-a88b-e408acc86d4a.png)
 
