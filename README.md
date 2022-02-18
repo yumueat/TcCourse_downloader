@@ -10,11 +10,12 @@
 
 先选择下载方式
 
-![image-20220218222350460](C:\Users\yumu\AppData\Roaming\Typora\typora-user-images\image-20220218222350460.png)
+![image](https://user-images.githubusercontent.com/87589322/154710393-2dd7090e-10a8-4072-b70d-cefb47b06a07.png)
+
 
 然后输入播放页面的网址
 
-![image-20220218222428103](C:\Users\yumu\AppData\Roaming\Typora\typora-user-images\image-20220218222428103.png)
+![image](https://user-images.githubusercontent.com/87589322/154710343-803e2a84-1703-4b12-a4b8-0d26452567d4.png)
 
 就是这个
 
