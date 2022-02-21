@@ -35,9 +35,20 @@ def decrypt_file(filename, key):
 # ts文件合并转换为mp4文件
 def ts2mp4(n,video):
     file_name = "0.ts"
-    for i in range(1, n):
-        file_name = file_name + f"+{i}.ts"
-    os.system("cd decrypt&&copy /b " + file_name + " " + str(video).replace(" ",""))
+    _n = 0
+    if n <= 200:
+        for i in range(1, n):
+            file_name = file_name + f"+{i}.ts"
+        os.system("cd decrypt&&copy /b " + file_name + " " + str(video).replace(" ",""))
+    else:
+        for i in range(1,n):
+            file_name = file_name + f"+{i}.ts"
+            if i == n-1:
+                os.system("cd decrypt&&copy /b " + file_name + " " + str(video).replace(" ", ""))
+            if i % 200:
+                os.system("cd decrypt&&copy /b " + file_name + f" x{_n}.ts" )
+                file_name = f" x{_n}.ts"
+                _n += 1
     os.system("cd downloads&&del *.ts")
     os.system("cd decrypt&&del *.ts")
     os.system("del get_dk")
