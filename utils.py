@@ -37,7 +37,7 @@ def ts2mp4(n,video):
     file_name = "0.ts"
     for i in range(1, n):
         file_name = file_name + f"+{i}.ts"
-    os.system("cd decrypt&&copy /b " + file_name + " " + str(video))
+    os.system("cd decrypt&&copy /b " + file_name + " " + str(video).replace(" ",""))
     os.system("cd downloads&&del *.ts")
     os.system("cd decrypt&&del *.ts")
     os.system("del get_dk")
