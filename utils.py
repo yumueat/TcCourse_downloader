@@ -45,7 +45,7 @@ def ts2mp4(n,video):
             file_name = file_name + f"+{i}.ts"
             if i == n-1:
                 os.system("cd decrypt&&copy /b " + file_name + " " + str(video).replace(" ", ""))
-            if i % 200:
+            if i % 500 == 0:
                 os.system("cd decrypt&&copy /b " + file_name + f" x{_n}.ts" )
                 file_name = f" x{_n}.ts"
                 _n += 1
